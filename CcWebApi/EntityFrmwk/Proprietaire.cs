@@ -15,6 +15,7 @@ namespace CcWebApi.EntityFrmwk
     public partial class Proprietaire
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+       
         public Proprietaire()
         {
             this.Biens = new HashSet<Bien>();
